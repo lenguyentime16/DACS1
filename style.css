@@ -421,6 +421,7 @@ input:focus {
     outline: none;
 }
 
+
 .single-product .fa {
     color:#ff523b;
     margin-left: 10px;
@@ -514,6 +515,17 @@ td img {
 .total-price {
     display: flex;
     justify-content: flex-end;
+}
+
+.total-price .btn {
+    width: 100%;
+    text-align: center;
+    margin-left: 50px;
+    
+}
+
+.total-price a {
+    font-size: 16px;
 }
 
 .total-price table {
@@ -611,4 +623,126 @@ form a {
     transition: transform 1s;
 }
 
+.contact-form {
+    margin-bottom: 210px;
+}
+
+.contact-page {
+    padding: 80px;
+    background: radial-gradient(#fff,#ffd6d6);
+} 
+
+
+.contact-page .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.contact-page .col-2 {
+    flex-basis: 50%;
+    max-width: 50%;
+    margin-bottom: 30px;
+}
+
+.contact-page h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.contact-page .form-group label {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+.contact-page {
+  padding: 80px 0;
+}
+
+.contact-page .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.contact-page .col-2 {
+  flex-basis: 50%;
+  max-width: 50%;
+  margin-bottom: 30px;
+}
+
+.contact-page h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.contact-page .form-group label {
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-page .form-group input,
+.contact-page .form-group textarea {
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.contact-page .btn {
+    width: 80%;
+  display: inline-block;
+  background-color: #ff523b;
+  color: #fff;
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.contact-page .btn:hover {
+  background-color:#563434;
+}
+
+.contact-page .contact-info {
+  background:white;
+  padding: 40px;
+  text-align: center;
+}
+
+.contact-page .contact-info h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact-page .contact-info .info {
+  margin-bottom: 20px;
+}
+
+.contact-page .contact-info .info label {
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+}
+
+.contact-page .contact-info .info p {
+  font-size: 14px;
+  color: #888;
+}
+
+.contact-page .contact-info img {
+  margin-top: 20px;
+  width: 100%;
+
+}
 
